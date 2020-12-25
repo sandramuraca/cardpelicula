@@ -1,0 +1,8 @@
+3) Card de película
+Crear una card de película con los siguientes datos:
+póster de la película, título, descripción, año y género
+La card debe tener un ancho y un alto fijo.
+La card debe estar centrada con respecto al ancho y al alto de la pantalla.
+La imagen debe tener un ancho fijo.
+El contenedor de la información de la película debe ocupar el ancho disponible (con flex-grow) y el 100% del alto de la card.
+La descripción debe ocupar el alto disponible

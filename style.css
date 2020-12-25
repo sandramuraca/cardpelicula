@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Antic&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(86, 94, 121);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+
+
+.contenedor{
+    width: 1000px;
+    height: 500px;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    box-shadow: grey 15px 10px 15px 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+img{
+    box-shadow: gray 5px 5px 5px 5px ;
+}
+
+h2{
+    font-family: 'Julius Sans One', sans-serif;
+    color: rgb(86, 94, 121);
+    text-shadow: gray 4px 4px 4px 4px;
+    font-size: 30px;
+    
+}
+
+main{
+    width: 600px;
+    height: 300px;
+}
+
+.bordes{
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+p, span{
+    font-family: 'Antic', sans-serif;
+    font-size: 25px;
+    color: rgb(50, 56, 61);
+}
+
+p{
+    text-align: justify;
+}
+footer{
+    display:flex;
+    justify-content: space-around;
+}
